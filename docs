@@ -1,0 +1,45 @@
+.	Matches any single character except newline
+
+^	Anchors a match at the start of a string                    == \A
+    Complements a character class
+
+$	Anchors a match at the end of a string
+
+*	Matches zero or more repetitions
+
++	Matches one or more repetitions
+
+?	Matches zero or one repetition
+    Specifies the non-greedy versions of *, +, and ?
+    Introduces a lookahead or lookbehind assertion
+    Creates a named group
+
+{}	Matches an explicitly specified number of repetitions
+
+\	Escapes a metacharacter of its special meaning
+    Introduces a special character class
+    Introduces a grouping backreference
+
+[]	Specifies a character class
+
+|	Designates alternation
+
+()	Creates a group
+
+:
+#
+=
+!	Designate a specialized group
+
+<>	Creates a named group
+
+---
+
+$
+\Z  Anchor a match to the end of <string>
+
+\b  Anchors a match to a word boundary
+
+\B  Anchors a match to a location that isn’t a word boundary
+
+\S  Matches any non-whitespace character
